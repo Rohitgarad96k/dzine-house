@@ -1,0 +1,26 @@
+[
+  {
+    "id": "p1",
+    "title": "Corporate Summit Flyer",
+    "client": "Nexus Tech",
+    "category": "Corporate",
+    "thumbnail": "/assets/portfolio/nexus-summit.jpg",
+    "accentColor": "bg-blue-600"
+  },
+  {
+    "id": "p2",
+    "title": "Ayurvedic Retreat Brochure",
+    "client": "Wellness Inc",
+    "category": "Healthcare",
+    "thumbnail": "/assets/portfolio/ayurveda-retreat.jpg",
+    "accentColor": "bg-emerald-600"
+  },
+  {
+    "id": "p3",
+    "title": "Festive Sale Campaign",
+    "client": "Retail Connect",
+    "category": "E-commerce",
+    "thumbnail": "/assets/portfolio/festive-sale.jpg",
+    "accentColor": "bg-orange-500"
+  }
+]

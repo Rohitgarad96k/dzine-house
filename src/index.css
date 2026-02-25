@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  /* Premium Typography */
+  --font-sans: "Plus Jakarta Sans", sans-serif;
+  
+  /* Luxury Color Palette */
+  --color-brand-primary: #064e3b; /* Deep Emerald */
+  --color-brand-accent: #10b981;  /* Vibrant Jewel Green */
+  --color-obsidian: #0f172a;      /* Premium Dark Gray/Blue */
+  --color-glass: rgba(255, 255, 255, 0.03);
+  
+  /* Refined Grays */
+  --color-gray-50: #f8fafc;
+  --color-gray-900: #0f172a;
+
+  --animate-float: float 6s ease-in-out infinite;
+
+  @keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-20px); }
+  }
+}
+
+@layer base {
+  body {
+    @apply bg-gray-50 text-obsidian antialiased selection:bg-brand-accent selection:text-white;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+}
